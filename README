@@ -203,9 +203,9 @@ of(string(/abc/))
 
 h2. Case#symbol
 
-of(string)
-of(string(:abc))
-of(string(/abc/)) # matches a symbol if its to_s matches the regexp.
+of(symbol)
+of(symbol(:abc))
+of(symbol(/abc/)) # matches a symbol if its to_s matches the regexp.
 
 
 h1. Structural Patterns
